@@ -1,0 +1,10 @@
+#!/usr/bin/env ruby
+
+require "rubygems"
+require "bundler/setup"
+Bundler.require(:default, "development")
+
+puts "without arguments this will be printed"
+puts "Now try to run me with -h argument for example"
+
+# vim: set ft=ruby:
